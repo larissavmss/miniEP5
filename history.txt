@@ -1,2 +1,6 @@
-docker build --pull --rm -f "Dockerfile" -t miniep5 "." 
-docker run -p 8080:80 miniep5
+Atividade 1
+    docker build --pull --rm -f "Dockerfile" -t miniep5 "." 
+    docker run -p 8080:80 miniep5
+
+Atividade 2
+    docker run -p 8080:80 -v ./usr/src/pages:/usr/src/pages miniep5
